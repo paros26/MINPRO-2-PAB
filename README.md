@@ -20,6 +20,7 @@ Aplikasi ini dibuat sebagai pengembangan dari Mini Project 1 dengan menambahkan 
 
 Aplikasi menyediakan fitur autentikasi pengguna menggunakan Supabase Auth.
 
+
 Fitur ini memungkinkan pengguna untuk:
 
 * Mendaftar akun baru
