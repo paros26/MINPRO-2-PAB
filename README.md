@@ -18,6 +18,10 @@ Aplikasi ini dibuat sebagai pengembangan dari Mini Project 1 dengan menambahkan 
 
 ## 1. Sistem Login dan Register
 
+![image](https://github.com/paros26/MINPRO-2-PAB/blob/42340dc65c67bb5b19928fddc7b5cebe78df301a/login%20baru.png)
+
+![image](https://github.com/paros26/MINPRO-2-PAB/blob/daf2b672be400c8ff6bdab1274be3746dc1fc1dc/register.png)
+
 Aplikasi menyediakan fitur autentikasi pengguna menggunakan Supabase Auth.
 
 Fitur ini memungkinkan pengguna untuk:
@@ -34,6 +38,8 @@ Setiap akun pengguna memiliki data stok yang berbeda sehingga data antar penggun
 
 ### Create (Tambah Data Pelanggan)
 
+![image](https://github.com/paros26/MINPRO-2-PAB/blob/42340dc65c67bb5b19928fddc7b5cebe78df301a/menambah%20data%20pelanggan.png)
+
 Pengguna dapat menambahkan pelanggan baru dengan mengisi beberapa informasi seperti:
 
 * NIK
@@ -44,28 +50,35 @@ Data pelanggan kemudian disimpan ke database Supabase.
 
 ### Read (Menampilkan Data Pelanggan)
 
+![image](https://github.com/paros26/MINPRO-2-PAB/blob/9fbb73f2eee6346d3c1fad7af34ec8ab01180e4c/Cuplikan%20layar%202026-03-16%20134405.png)
+
 Aplikasi menampilkan daftar pelanggan yang telah terdaftar dalam sistem.
 
 Pengguna dapat melihat informasi pelanggan yang tersimpan di database.
 
 ### Update (Edit Data Pelanggan)
 
+![image](https://github.com/paros26/MINPRO-2-PAB/blob/7a337276c0318be2d81bcb4c056965ea9345373a/Cuplikan%20layar%202026-03-16%20134602.png)
+
 Pengguna dapat memperbarui data pelanggan apabila terdapat kesalahan atau perubahan data.
 
 Contohnya:
 
-* Mengubah nama pelanggan
-* Mengubah kategori pelanggan
+* Mengubah stok yang di beli pelanggan
 
 ### Delete (Hapus Data Pelanggan)
 
-Data pelanggan yang sudah tidak digunakan dapat dihapus dari sistem.
+![image](https://github.com/paros26/MINPRO-2-PAB/blob/7a337276c0318be2d81bcb4c056965ea9345373a/laporan%20penjualan%20berhasil.png)
+
+Transaksi pelanggan yang sudah tidak digunakan dapat dihapus dari sistem dengan menekan icon tempat sampah.
 
 ---
 
 ## 3. Manajemen Stok LPG
 
 ### Tambah Stok
+
+![image](https://github.com/paros26/MINPRO-2-PAB/blob/7a337276c0318be2d81bcb4c056965ea9345373a/menambah%20stok%20tabung.png)
 
 Pengguna dapat menambahkan stok LPG ketika terdapat pengiriman tabung baru.
 
@@ -81,7 +94,11 @@ Aplikasi menampilkan jumlah stok LPG yang tersedia sehingga pengguna dapat menge
 
 ### Create Penjualan
 
+![image](https://github.com/paros26/MINPRO-2-PAB/blob/7a337276c0318be2d81bcb4c056965ea9345373a/menambah%20stok%20tabung.png)
+
 Pengguna dapat mencatat transaksi penjualan dengan langkah berikut:
+
+![image](https://github.com/paros26/MINPRO-2-PAB/blob/57f78045673111efbc3051cc961c552e5aaaba5d/cek%20nik.png)
 
 1. Memasukkan NIK pelanggan
 2. Sistem akan mengecek apakah pelanggan sudah terdaftar
@@ -89,17 +106,9 @@ Pengguna dapat mencatat transaksi penjualan dengan langkah berikut:
 
 Data transaksi kemudian disimpan ke database Supabase.
 
-### Update Penjualan
 
-Jika terjadi kesalahan pencatatan transaksi, pengguna dapat memperbarui jumlah tabung yang telah dicatat.
 
-### Delete Penjualan
 
-Data transaksi yang salah dapat dihapus dari sistem.
-
-Jika data penjualan dihapus, maka stok LPG akan otomatis bertambah kembali sesuai jumlah tabung pada transaksi tersebut.
-
----
 
 ## 5. Validasi Pembelian Berdasarkan Kategori
 
@@ -112,15 +121,6 @@ Aplikasi memiliki aturan pembelian LPG sesuai kategori pelanggan:
 
 Jika pelanggan membeli melebihi batas tersebut, aplikasi akan menampilkan peringatan.
 
----
-
-## 6. Validasi Stok LPG
-
-Aplikasi juga melakukan pengecekan stok sebelum transaksi dilakukan.
-
-Jika stok tidak mencukupi atau habis, maka aplikasi akan menampilkan notifikasi dan transaksi tidak dapat diproses.
-
----
 
 # Widget yang Digunakan
 
